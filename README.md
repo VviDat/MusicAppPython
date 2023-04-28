@@ -41,6 +41,21 @@ Change the volume of the playback
 Skip to the next or previous song in the playlist
 	
 Shuffle the playlist
+## Common Mistakes
+#Missing dependencies: 
+	The MusicApp.py script has several dependencies that need to be installed before it can be run. These include the Pillow, pygame, darkdetect, and customtkinter libraries. If any of these dependencies are missing, the script will not run properly.
+
+#Incorrect installation location: 
+	The MusicApp.py script should be run from the same directory where it is located. If the script is moved to a different directory after installation, it may not run properly.
+
+#Python version mismatch: 
+	The MusicApp.py script is designed to run on Python 3.10. If you are using a different version of Python, the script may not run properly.
+
+#Missing modules: 
+	The MusicApp.py script imports several modules, including PIL, pygame, and customtkinter. If any of these modules are missing or cannot be imported, the script will not run properly.
+
+#Permissions issues: 
+	If you are running the MusicApp.py script as a different user than the one who installed the dependencies, you may encounter permissions issues. In this case, you may need to install the dependencies using the --user flag or run the script as the user who installed the dependencies.
 	
 ## Contributing
 	
