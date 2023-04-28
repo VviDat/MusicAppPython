@@ -21,7 +21,7 @@ To use MusicPlayer App, you need to navigate to the site-packages directory of y
 
 Once you are in the site-packages directory, you can start the MusicPlayer App by running the following command:
   
-  #### python -m PhanMemMMN.musicplayer
+  #### python3 MusicApp.py
 
   
   This will start the MusicPlayer App and display the available commands.
